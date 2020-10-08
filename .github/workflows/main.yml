@@ -28,4 +28,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ shams-bootcamp-apprrr.surge.sh --token ${{secrets.surge_token}}
+      run: surge ./ shams-assg-class1.surge.sh --token ${{secrets.surge_token}}
